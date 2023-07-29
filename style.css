@@ -1,0 +1,165 @@
+html {
+      scroll-behavior: smooth;
+    }
+    
+    *, body {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    a {
+      text-decoration: none;
+      color: #323232;
+    }
+    
+    a:hover {
+      text-decoration: underline;
+    }
+    
+    body {
+      background-color: #EEEEEE;
+      color: #323232;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .home-container {
+      display: flex;
+      height: 92vh;
+      width: 100vw;
+      justify-content: center;
+      align-items: center; 
+      flex-direction: column;
+      position: relative;
+    }
+    
+    .wave-first {
+      position: absolute;
+      bottom: 0;
+    }
+    
+    h1 {
+      font-size: 3rem;
+    }
+    
+    h1, p {
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      transition: all 0.5s ease;
+    }
+    
+    h1:hover {
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    
+    li {
+      list-style-type: none;
+    }
+    
+    nav {
+      display: flex;
+      height: 8vh;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
+    
+    .menu-container {
+      display: flex;
+      width: 60%;
+      padding: 10px;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 11px;
+    }
+    
+    .about-container {
+      background-color: #424242;
+      color: #E6E6E6;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .portofolio-card {
+      display: grid;
+      width: 200px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 5px;
+      transition: all 0.2s ease;
+      background-color: white;
+    }
+    .portofolio-card:hover {
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    }
+    
+    .portofolio-img {
+      background-color: #EA70BF;
+      width: 200px;
+      height: 120px;
+    }
+    
+    .portofolio-desc {
+      display: grid;
+      grid-gap: 5px;
+      padding: 10px;
+    }
+    
+    .portofolio-desc p {
+      font-size: 12px;
+    }
+    
+    .portofolio-button {
+      width: 75px;
+      height: 20px;
+      border-radius: 10px;
+      border: none;
+      background-color: #69C652;
+      color: white;
+      transition: all 0.3s ease;
+      font-size: 11px;
+    }
+    .portofolio-button:hover {
+      background-color: transparent;
+      border: solid 1px #69C652;
+      color: #69C652;
+    }
+    
+    .portofolio-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 60px;
+      position: relative;
+    }
+    
+    .portofolio-title {
+      text-align: center;
+      margin-bottom: 50px;
+    }
+    
+    footer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 50px;
+      background-color: rgb(66, 66, 66);
+      flex-direction: column;
+      color: #EBEBEB;
+    }
+    
+    footer p {
+      font-size: 12px;
+    }
+    
+    .wave-second {
+      position: absolute;
+      bottom: 0;
+      z-index: -5;
+    }
